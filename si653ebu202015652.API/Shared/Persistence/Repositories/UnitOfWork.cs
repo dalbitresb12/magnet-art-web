@@ -1,5 +1,5 @@
+using si653ebu202015652.API.Shared.Domain.Repositories;
 using si653ebu202015652.API.Shared.Persistence.Contexts;
-using si653ebu202015652.API.Weather.Domain.Repositories;
 
 namespace si653ebu202015652.API.Shared.Persistence.Repositories;
 
