@@ -18,11 +18,11 @@ builder.Services.AddSwaggerGen(
     options.SwaggerDoc(
       "v1",
       new OpenApiInfo {
-        Title = "Weather Forecast API",
+        Title = "MAGnet Art API",
         Version = "v1",
-        Description = "An ASP.NET Core Web API for managing Weather Forecast items",
-        TermsOfService = new Uri("https://example.com/terms"),
-        Contact = new OpenApiContact {Name = "Example Contact", Url = new Uri("https://example.com/contact"),},
+        Description = "An ASP.NET Core Web API for managing AI art.",
+        TermsOfService = new Uri("https://magnet.art/terms"),
+        Contact = new OpenApiContact {Name = "Contact", Url = new Uri("https://magnet.art/contact"),},
         License = new OpenApiLicense {Name = "MIT", Url = new Uri("https://choosealicense.com/licenses/mit/"),},
       }
     );
