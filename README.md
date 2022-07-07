@@ -1,4 +1,10 @@
-# [.NET Core Web API Starter](https://github.com/dalbitresb12/aspnet-starter)
+# MAGnet.art API
+
+## Important information
+
+- The requested port, 7070, is currently set in the [`launchSettings.json`](si653ebu202015652.API/Properties/launchSettings.json) file, but it can't be set to be used by IIS. Only for the Standalone application.
+
+## Template
 
 This [template](https://github.com/dalbitresb12/aspnet-starter) should help get you started developing a Web API using .NET Core 6. It includes opinionated configurations for JetBrains Rider, Visual Studio, [commitlint](https://commitlint.js.org/) with commit hooks (powered by [Husky.Net](https://alirezanet.github.io/Husky.Net/)).
 
